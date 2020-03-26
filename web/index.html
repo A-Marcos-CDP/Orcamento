@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Contador para Orçamento</title>
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+</head>
+
+<body>
+    <div class="Container">
+        <div class='row'>
+            <div class="col">
+                <h1>Bem Vindo ao Contador para Orçamento!</h1>  
+            </div>
+        </div>  
+        <div class='row'>
+            <div class="col">
+                <button class='btn btn-success' onclick="getOrc()">Contar!</button>
+            </div>
+            <div class="col">
+                <button class='btn btn-success' onclick="showDiv()">Ver Resultado</button>
+            </div>
+        </div>  
+        <div class="row">
+            <div class='col'>
+                <div id="pop"  style="display:none;" class="answer_list" >
+                    <iframe id="iframe" src="Out.html"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
